@@ -55,7 +55,7 @@
 <body>
 
     <audio id="birthday-song" loop muted playsinline>
-        <source src="https://github.com/NimzJR/happy-birthday-Senithma/raw/2c7018f39ec316053fffea1a7969cc76a71addad/SaveTik.io_7587009872601058581%20(5).mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/NimzJR/happy-birthday-Senithma/2c7018f39ec316053fffea1a7969cc76a71addad/SaveTik.io_7587009872601058581%20(5).mp3" type="audio/mpeg">
     </audio>
 
     <div id="overlay" onclick="startExperience()">
@@ -105,7 +105,8 @@
                 document.getElementById('main').style.display = 'flex';
                 
                 const group = document.getElementById('candleGroup');
-                for(let i=0; i<21; i++) {
+                // ඉටිපන්දම් ගණන 20 ලෙසම පවතී
+                for(let i=0; i<20; i++) {
                     let c = document.createElement('div');
                     c.className = 'candle';
                     let f = document.createElement('div');
